@@ -1,17 +1,17 @@
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import { Autoplay } from "swiper";
 
 const Testimonials = () => {
   const settings = {
-    infinite: true,
-    autoplay: true,
-    speed: 500,
-    autoplaySpeed: 3000,
-    cssEase: "linear",
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
+    spaceBetween: 30,
+    centeredSlides: true,
+    loop: true,
+    autoplay: {
+      delay: 2500,
+      disableonInteraction: false,
+    },
+    modules: [Autoplay],
   };
   return (
     <div className="flex flex-col lg:px-[10em] md:py-[5em] items-center mx-auto md:w-full bg-[#2D2E32] p-[2em] min-h-auto ">
@@ -24,8 +24,8 @@ const Testimonials = () => {
         </h4>
       </div>
       <div className=" w-full justify-center items-center lg:px-8">
-        <Slider className="w-full outline-none items-center" {...settings}>
-          <div className=" flex flex-col">
+        <Swiper {...settings} className="w-full outline-none items-center">
+          <SwiperSlide className=" flex flex-col">
             <div className="flex bg-black/25 text-white md:mx-[4em] mx-[.5em] mb-8 h-auto md:p-[4em] p-[2em] text-center md:text-xl text-xs font-sans font-normal tracking-wide text-opacity-50 rounded-lg bg-quotes bg-[length:32px_32px] md:bg-[length:48px_48px] bg-right-top bg-no-repeat bg-blend-overlay ">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
               minus cumque aliquid officia, odio nisi impedit praesentium
@@ -39,8 +39,8 @@ const Testimonials = () => {
                 S.V.P Turing Inc.
               </p>
             </div>
-          </div>
-          <div className=" flex flex-col items-center">
+          </SwiperSlide>
+          <SwiperSlide className=" flex flex-col items-center">
             <div className="flex bg-black/25 text-white md:mx-[4em] mx-[.5em] mb-8 h-auto md:p-[4em] p-[2em] text-center md:text-xl text-xs font-sans font-normal tracking-wide text-opacity-50 rounded-lg bg-quotes bg-[length:32px_32px] md:bg-[length:48px_48px] bg-right-top bg-no-repeat bg-blend-overlay ">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
               minus cumque aliquid officia, odio nisi impedit praesentium
@@ -54,8 +54,8 @@ const Testimonials = () => {
                 S.V.P Turing Inc.
               </p>
             </div>
-          </div>
-          <div className=" flex flex-col items-center">
+          </SwiperSlide>
+          <SwiperSlide className=" flex flex-col items-center">
             <div className="flex bg-black/25 text-white md:mx-[4em] mx-[.5em] mb-8 h-auto md:p-[4em] p-[2em] text-center md:text-xl text-xs font-sans font-normal tracking-wide text-opacity-50 rounded-lg bg-quotes bg-[length:32px_32px] md:bg-[length:48px_48px] bg-right-top bg-no-repeat bg-blend-overlay ">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
               minus cumque aliquid officia, odio nisi impedit
@@ -68,8 +68,8 @@ const Testimonials = () => {
                 S.V.P Turing Inc.
               </p>
             </div>
-          </div>
-        </Slider>
+          </SwiperSlide>
+        </Swiper>
       </div>
     </div>
   );

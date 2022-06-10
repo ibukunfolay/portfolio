@@ -1,25 +1,26 @@
-import React, { useRef } from "react";
-import Slider from "react-slick";
-import Typist from "react-typist";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/effect-fade";
 
 import pic1 from "../Assets/1.png";
 import pic2 from "../Assets/2.png";
 import pic3 from "../Assets/3.png";
 import pic4 from "../Assets/4.png";
+import { EffectFade, Autoplay } from "swiper";
+import Typist from "react-typist";
 
 const Projects = () => {
   const settings = {
-    infinite: true,
-    autoplay: true,
-    speed: 500,
-    autoplaySpeed: 5000,
-    cssEase: "linear",
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    adaptiveHeight: true,
-    fade: true,
-    arrows: false,
-    waitForAnimate: false,
+    slidesPerView: 1,
+    spaceBetween: 30,
+    centeredSlides: true,
+    loop: true,
+    autoplay: {
+      delay: 10000,
+      disableonInteraction: false,
+    },
+    effect: "fade",
+    modules: [EffectFade, Autoplay],
   };
 
   return (
@@ -79,17 +80,17 @@ const Projects = () => {
         </div>
       </div>
       <div className="flex lg:w-[400px] w-full lg:basis-3/5 justify-center items-center lg:px-8 ">
-        <Slider
+        <Swiper
           className=" w-full outline-none items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300"
           {...settings}
         >
-          <div className="mr-[2em]">
+          <SwiperSlide className="mr-[2em]">
             <img src={pic2} alt="" className="" />
-          </div>
-          <div className="">
+          </SwiperSlide>
+          <SwiperSlide className="">
             <img src={pic3} alt="" className="" />
-          </div>
-        </Slider>
+          </SwiperSlide>
+        </Swiper>
       </div>
     </div>
   );
