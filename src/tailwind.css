@@ -18,6 +18,9 @@
   /* 2 */
   border-color: currentColor;
   /* 2 */
+  scroll-behavior: smooth;
+  transition: ease 1000s;
+  transition-property: scroll-behaviour;
 }
 
 ::before,

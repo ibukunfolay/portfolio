@@ -2,7 +2,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const Stacks = () => {
+const Testimonials = () => {
   const settings = {
     infinite: true,
     autoplay: true,
@@ -11,12 +11,7 @@ const Stacks = () => {
     cssEase: "linear",
     slidesToShow: 1,
     slidesToScroll: 1,
-    // adaptiveHeight: true,
     arrows: false,
-    // waitForAnimate: false,
-    // centerPadding: "60px",
-    // className: "center",
-    // centerMode: true,
   };
   return (
     <div className="flex flex-col lg:px-[10em] md:py-[5em] items-center mx-auto md:w-full bg-[#2D2E32] p-[2em] min-h-auto ">
@@ -80,4 +75,4 @@ const Stacks = () => {
   );
 };
 
-export default Stacks;
+export default Testimonials;

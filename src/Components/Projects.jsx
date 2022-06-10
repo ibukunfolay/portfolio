@@ -23,7 +23,10 @@ const Projects = () => {
   };
 
   return (
-    <div className="flex flex-wrap w-full bg-[#25262A] p-[2em] min-h-screen ">
+    <div
+      id="projects"
+      className="flex flex-wrap w-full bg-[#25262A] p-[2em] min-h-screen "
+    >
       <div className="flex flex-col justify-center  w-full lg:basis-2/5">
         <div className="text-slate-400 text-center font-sans font-bold text-3xl tracking-widest opacity-75">
           Recent Products
@@ -43,30 +46,36 @@ const Projects = () => {
           <h2 className="text-slate-400 font-sans font-semibold tracking-widest text-lg opacity-75 mb-2">
             Project links
           </h2>
-          <a
-            href="http://capitalequityfunds.netlify.app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-slate-700 opacity-50 hover:text-cyan-600 font-open text-sm font-light tracking-widest text-sm"
-          >
-            Capital Equity
-          </a>
-          <a
-            href="http://qclosetimesheet.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-slate-700 opacity-50 hover:text-cyan-600 font-open text-sm font-light tracking-widest text-sm"
-          >
-            Qclose Timesheet
-          </a>
-          <a
-            href="http://betacare.netlify.app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-slate-700 opacity-50 hover:text-cyan-600 font-open text-sm font-light tracking-widest text-sm"
-          >
-            Medical Dashboard
-          </a>
+          <div className="">
+            <a
+              href="http://capitalequityfunds.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-700 opacity-50 hover:text-cyan-600 font-open text-lg font-medium tracking-widest transition ease-in-out delay-150 duration-300"
+            >
+              Capital Equity
+            </a>
+          </div>
+          <div className="">
+            <a
+              href="http://qclosetimesheet.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-700 opacity-50 hover:text-cyan-600 font-open text-lg font-medium tracking-widest transition ease-in-out delay-150 duration-300"
+            >
+              Qclose Timesheet
+            </a>
+          </div>
+          <div className="">
+            <a
+              href="http://betacare.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-700 opacity-50 hover:text-cyan-600 font-open text-lg font-medium tracking-widest transition ease-in-out delay-150 duration-300"
+            >
+              Medical Dashboard
+            </a>
+          </div>
         </div>
       </div>
       <div className="flex lg:w-[400px] w-full lg:basis-3/5 justify-center items-center lg:px-8 ">

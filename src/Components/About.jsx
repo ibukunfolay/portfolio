@@ -8,9 +8,12 @@ import react from "../Assets/reactlogo.png";
 
 const About = () => {
   return (
-    <div className="min-h-screen relative  bg-[#25262A] sm:flex  flex-wrap px-4 py-6">
+    <div
+      id="about"
+      className="min-h-screen relative  bg-[#25262A] sm:flex  flex-wrap px-4 py-6"
+    >
       <div className="lg:basis-2/4 flex flex-col justify-center pb-[5em]  mb-[6em]  bg-graphql bg-auto bg-left-bottom bg-no-repeat bg-blend-overlay ">
-        <div className="font-open text-slate-500 text-md pb-6 flex-none  bg-react md:bg-auto bg-[length:32px_32px] bg-right-top bg-no-repeat bg-blend-overlay ">
+        <div className="font-open font-medium text-slate-500 text-md pb-6 flex-none  bg-react md:bg-auto bg-[length:32px_32px] bg-right-top bg-no-repeat bg-blend-overlay ">
           <Typist cursor={{ hideWhenDone: true }} className="inline">
             Introduction
           </Typist>
@@ -25,29 +28,32 @@ const About = () => {
               "
             </span>
           </div>
-          <div className="font-open text-md text-slate-500 opacity-75 md:w-3/5 w-full leading-9 tracking-wide">
+          <div className="font-open font-medium text-md text-slate-500 opacity-75 md:w-3/5 w-full leading-9 tracking-wide">
             <Typist
               cursor={{ hideWhenDone: true }}
               avgTypingDelay={100}
               startDelay={2000}
             >
-              Starting my journey as a software developer about 5 years ago,
+              Since beginning my career as a software developer approximately
+              three years ago,
               <Typist.Delay ms={1250} /> &nbsp;I've done remote work for
-              clients,&nbsp;
-              <Typist.Delay ms={750} /> consulted for startups,&nbsp;
+              customers,&nbsp;
               <Typist.Delay ms={750} />
-              collaborated with great people to create digital products for both
-              business and <Typist.Delay ms={500} />
+              provided startup consulting,&nbsp;
+              <Typist.Delay ms={750} />
+              and cooperated with amazing people to create digital products for
+              both business and <Typist.Delay ms={500} />
               <span className="">customer</span>
               <Typist.Backspace count={8} delay={1000} />
               <Typist.Delay ms={750} />
-              consumer use ,<Typist.Delay ms={1250} />
-              &nbsp; implementing{" "}
+              consumer usage,
+              <Typist.Delay ms={1250} />
+              &nbsp;applying&nbsp;
               <span className="italic font-medium">"high quality code"</span>
-              &nbsp; using best practices.
+              &nbsp;and best practices.
               <Typist.Delay ms={2000} /> <br /> I'm reserved, confident,
-              naturally curious, a team player, and consistently working on
-              improving my skills problem at a time.
+              naturally interested, a team player, and I work hard to improve my
+              talents one challenge at a time.
             </Typist>
           </div>
         </div>
