@@ -43,7 +43,6 @@ const App = () => {
       <Marque />
       <Projects />
       <Testimonials />
-      {/* <Resume /> */}
       <Contact />
       <Footer />
       <MobileMenu />
