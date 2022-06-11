@@ -34,8 +34,11 @@ const Contact = () => {
         favor Front-End Roles.
       </p>
       <div className="md:text-3xl text-xl text-white opacity-50 font-sans font-small md:font-medium md:w-4/5 tracking-widest">
-        <a href="" className="hover:text-cyan-600" onClick={() => handleOpen()}>
-          Saying Hi
+        <a
+          className="hover:text-cyan-600 underline  decoration-cyan-600"
+          onClick={() => handleOpen()}
+        >
+          Get in touch
         </a>
       </div>
       <Modal open={open} onClose={() => handleClose()}>
