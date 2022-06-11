@@ -28,9 +28,9 @@ const Testimonials = () => {
         <Swiper {...settings} className="w-full outline-none items-center">
           <SwiperSlide className=" flex flex-col items-center">
             <div className="flex bg-black/25 text-white md:mx-[4em] mx-[.5em] mb-8 h-auto md:p-[4em] p-[2em] text-center md:text-xl text-xs font-sans font-normal tracking-wide text-opacity-50 rounded-lg bg-quotes bg-[length:32px_32px] md:bg-[length:48px_48px] bg-right-top bg-no-repeat bg-blend-overlay ">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
-              minus cumque aliquid officia, odio nisi impedit praesentium
-              dolores? Ea doloribus nihil provident illo!
+              Ibukun was a real pleasure to work with and we look forward to
+              working with him again. He's definitely the kind of developer you
+              can trust with a project from start to finish
             </div>
             <div className="flex md:w-1/4 py-4 border-b-2 border-solid border-cyan-500">
               <img
@@ -55,9 +55,10 @@ const Testimonials = () => {
           </SwiperSlide>
           <SwiperSlide className=" flex flex-col items-center">
             <div className="flex bg-black/25 text-white md:mx-[4em] mx-[.5em] mb-8 h-auto md:p-[4em] p-[2em] text-center md:text-xl text-xs font-sans font-normal tracking-wide text-opacity-50 rounded-lg bg-quotes bg-[length:32px_32px] md:bg-[length:48px_48px] bg-right-top bg-no-repeat bg-blend-overlay ">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
-              minus cumque aliquid officia, odio nisi impedit praesentium
-              dolores? Ea doloribus nihil provident illo!
+              Ibukun was great. He responded quickly and was very friendly. He
+              was also very patient when I needed to change things around. The
+              final product was exactly what I wanted and I would highly
+              recommend him.
             </div>
             <div className="flex md:w-1/4 py-4 border-b-2 border-solid border-cyan-500">
               <img
@@ -67,7 +68,7 @@ const Testimonials = () => {
               />
               <div className="">
                 <h2 className="text-white opacity-75 text-sm md:text-sm font-sans font-semibold mb-1 tracking-widest">
-                  Raheem Sterling
+                  Elenwo Collins
                 </h2>
                 <div className="flex">
                   <span className="text-white opacity-50 text-xs font-open font-bold md:font-semibold tracking-widest">
@@ -82,8 +83,12 @@ const Testimonials = () => {
           </SwiperSlide>
           <SwiperSlide className=" flex flex-col items-center">
             <div className="flex bg-black/25 text-white md:mx-[4em] mx-[.5em] mb-8 h-auto md:p-[4em] p-[2em] text-center md:text-xl text-xs font-sans font-normal tracking-wide text-opacity-50 rounded-lg bg-quotes bg-[length:32px_32px] md:bg-[length:48px_48px] bg-right-top bg-no-repeat bg-blend-overlay ">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
-              minus cumque aliquid officia, odio nisi impedit
+              I had an amazing experience working with the Ibukun at Qclose. He
+              is extremely professional, kind, hardworking, loyal, and a
+              pleasure to work with! He made the experience so enjoyable and
+              positive that I even found myself learning something new with each
+              call/chat/meeting! I highly recommend him to any business owner or
+              entrepreneur who is looking for an incredible experience.
             </div>
             <div className="flex md:w-1/4 py-4 border-b-2 border-solid border-cyan-500">
               <img
@@ -93,14 +98,14 @@ const Testimonials = () => {
               />
               <div className="">
                 <h2 className="text-white opacity-75 text-sm md:text-sm font-sans font-semibold mb-1 tracking-widest">
-                  Raheem Sterling
+                  Abbas Farouk
                 </h2>
                 <div className="flex">
                   <span className="text-white opacity-50 text-xs font-open font-bold md:font-semibold tracking-widest">
-                    C.T.O,&nbsp;
+                    Fullstack,&nbsp;
                   </span>
                   <span className="text-cyan-500 opacity-100 text-xs font-open font-bold md:font-semibold tracking-widest">
-                    360 Stakes.
+                    Qclose.
                   </span>
                 </div>
               </div>

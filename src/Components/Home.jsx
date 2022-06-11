@@ -1,8 +1,12 @@
 import Typist from "react-typist";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div className="lg:min-h-screen min-h-full bg-hero-pattern bg-cover bg-no-repeat bg-center drop-shadow-2xl">
+    <div
+      id="home"
+      className="lg:min-h-screen min-h-full bg-hero-pattern bg-cover bg-no-repeat bg-center drop-shadow-2xl"
+    >
       <div className="menu-bar h-auto flex p-4 md:px-6 px-2 items-center justify-between mb-[5em]">
         <div className="text-slate-50">
           <span className=" font-open font-black md:text-3xl  text-2xl underline decoration-double  decoration-cyan-600 tracking-wider">
@@ -14,25 +18,53 @@ const Home = () => {
         </div>
         <div>
           <ul className=" hidden h-8 md:visible md:flex pr-1">
-            <li className="text-white font-open font-bold text-lg mx-2 tracking-widest transition ease-in-out delay-100 duration-300 hover:text-cyan-500 hover:backdrop-blur-xl">
-              <a href="#about" className="">
+            <li className="text-white hover:cursor-pointer font-open font-bold text-lg mx-2 tracking-widest transition ease-in-out delay-100 duration-300 hover:text-cyan-500 hover:backdrop-blur-xl">
+              <Link
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
                 About
-              </a>
+              </Link>
             </li>
-            <li className="text-white font-open font-bold text-lg mx-2 tracking-widest transition ease-in-out delay-100 duration-300 hover:text-cyan-500 hover:backdrop-blur-xl">
-              <a href="#blog" className="">
+            <li className="text-white hover:cursor-pointer font-open font-bold text-lg mx-2 tracking-widest transition ease-in-out delay-100 duration-300 hover:text-cyan-500 hover:backdrop-blur-xl">
+              <Link
+                activeClass="active"
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
                 Blog
-              </a>
+              </Link>
             </li>
-            <li className="text-white font-open font-bold text-lg mx-2 tracking-widest transition ease-in-out delay-100 duration-300 hover:text-cyan-500 hover:backdrop-blur-xl">
-              <a href="#projects" className="">
+            <li className="text-white hover:cursor-pointer font-open font-bold text-lg mx-2 tracking-widest transition ease-in-out delay-100 duration-300 hover:text-cyan-500 hover:backdrop-blur-xl">
+              <Link
+                activeClass="active"
+                to="projects"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
                 Portfolio
-              </a>
+              </Link>
             </li>
-            <li className="text-white font-open font-bold text-lg mx-2 tracking-widest transition ease-in-out delay-100 duration-300 hover:text-cyan-500 hover:backdrop-blur-xl">
-              <a href="#contact" className="">
+            <li className="text-white hover:cursor-pointer font-open font-bold text-lg mx-2 tracking-widest transition ease-in-out delay-100 duration-300 hover:text-cyan-500 hover:backdrop-blur-xl">
+              <Link
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
