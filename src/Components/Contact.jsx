@@ -22,7 +22,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="flex flex-col min-h-[40vh] p-[2em] px-[3em] bg-footer-pattern bg-contain bg-center bg-no-repeat bg-blend-overlay bg-[#25262A]"
+      className="flex flex-col min-h-[40vh] p-[2em] md:px-[3em] bg-footer-pattern bg-contain bg-center bg-no-repeat bg-blend-overlay bg-[#25262A]"
     >
       <div className="relative text-cyan-600 md:text-3xl text-2xl md:mb-4 mb-2 leading-10 font-sans font-bold">
         <span className="md:w-[45px] w-[20px] h-[2px] inline-block align-top bg-white mt-[20px] mr-2"></span>
@@ -34,12 +34,11 @@ const Contact = () => {
         favor Front-End Roles.
       </p>
       <div className="md:text-3xl text-xl text-white opacity-50 font-sans font-small md:font-medium md:w-4/5 tracking-widest">
-        <span className="">Start by</span>&nbsp;
-        <a href="" className="hover:text-cyan-600" onClick={handleOpen}>
+        <a href="" className="hover:text-cyan-600" onClick={() => handleOpen()}>
           Saying Hi
         </a>
       </div>
-      <Modal open={open} onClose={handleClose}>
+      <Modal open={open} onClose={() => handleClose()}>
         <Box sx={style}>
           <h2>TExt</h2>
         </Box>
