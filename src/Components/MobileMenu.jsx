@@ -2,6 +2,7 @@ import React from "react";
 import profile from "../Assets/profile.png";
 import projects from "../Assets/project.png";
 import stacks from "../Assets/stacks.png";
+import phone from "../Assets/phone.png";
 
 const MobileMenu = () => {
   return (
@@ -27,6 +28,15 @@ const MobileMenu = () => {
       <div>
         <img
           src={stacks}
+          alt="stacks"
+          className="h-8 "
+          data-tip="my stacks"
+          data-type="info"
+        />
+      </div>
+      <div>
+        <img
+          src={phone}
           alt="stacks"
           className="h-8 "
           data-tip="my stacks"
