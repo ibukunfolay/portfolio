@@ -29,7 +29,7 @@ const MobileMenu = () => {
         <img
           src={stacks}
           alt="stacks"
-          className="h-8 "
+          className="h-10 "
           data-tip="my stacks"
           data-type="info"
         />
@@ -38,7 +38,7 @@ const MobileMenu = () => {
         <img
           src={phone}
           alt="stacks"
-          className="h-8 "
+          className="h-10 "
           data-tip="my stacks"
           data-type="info"
         />
