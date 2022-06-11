@@ -29,3 +29,7 @@
     transform: rotate(1800deg);
   }
 }
+
+body {
+  background-color: #25262a;
+}

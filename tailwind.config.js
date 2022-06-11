@@ -421,6 +421,7 @@ module.exports = {
     fontFamily: {
       sans: ["Poppins", ...defaultTheme.fontFamily.sans],
       open: ["open sans"],
+      nice: ["Alconica"],
       serif: ["Georgia", "Cambria", '"Times New Roman"', "Times", "serif"],
       mono: [
         "Menlo",

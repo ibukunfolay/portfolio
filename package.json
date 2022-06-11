@@ -23,7 +23,8 @@
     "react-router-dom": "^6.3.0",
     "react-tooltip": "^4.2.21",
     "react-typist": "^2.0.5",
-    "swiper": "^8.2.3"
+    "swiper": "^8.2.3",
+    "react-slick": "^0.29.0"
   },
   "devDependencies": {
     "@types/react": "~18.0.0",

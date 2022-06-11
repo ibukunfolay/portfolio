@@ -1,26 +1,25 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/effect-fade";
+import React, { useRef } from "react";
+import Slider from "react-slick";
+import Typist from "react-typist";
 
 import pic1 from "../Assets/1.png";
 import pic2 from "../Assets/2.png";
 import pic3 from "../Assets/3.png";
 import pic4 from "../Assets/4.png";
-import { EffectFade, Autoplay } from "swiper";
-import Typist from "react-typist";
 
 const Projects = () => {
   const settings = {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    centeredSlides: true,
-    loop: true,
-    autoplay: {
-      delay: 10000,
-      disableonInteraction: false,
-    },
-    effect: "fade",
-    modules: [EffectFade, Autoplay],
+    infinite: true,
+    autoplay: true,
+    speed: 500,
+    autoplaySpeed: 5000,
+    cssEase: "linear",
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    adaptiveHeight: true,
+    fade: true,
+    arrows: false,
+    waitForAnimate: false,
   };
 
   return (
@@ -49,7 +48,7 @@ const Projects = () => {
           </h2>
           <div className="">
             <a
-              href="http://capitalequityfunds.netlify.app"
+              href="http://www.capitalequityfunds.netlify.app"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-700 opacity-50 hover:text-cyan-600 font-open text-lg font-medium tracking-widest transition ease-in-out delay-150 duration-300"
@@ -59,7 +58,7 @@ const Projects = () => {
           </div>
           <div className="">
             <a
-              href="http://qclosetimesheet.com"
+              href="http://www.qclosetimesheet.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-700 opacity-50 hover:text-cyan-600 font-open text-lg font-medium tracking-widest transition ease-in-out delay-150 duration-300"
@@ -69,7 +68,7 @@ const Projects = () => {
           </div>
           <div className="">
             <a
-              href="http://betacare.netlify.app"
+              href="http://www.betacare.netlify.app"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-700 opacity-50 hover:text-cyan-600 font-open text-lg font-medium tracking-widest transition ease-in-out delay-150 duration-300"
@@ -80,17 +79,20 @@ const Projects = () => {
         </div>
       </div>
       <div className="flex lg:w-[400px] w-full lg:basis-3/5 justify-center items-center lg:px-8 ">
-        <Swiper
+        <Slider
           className=" w-full outline-none items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300"
           {...settings}
         >
-          <SwiperSlide className="mr-[2em]">
-            <img src={pic2} alt="" className="" />
-          </SwiperSlide>
-          <SwiperSlide className="">
-            <img src={pic3} alt="" className="" />
-          </SwiperSlide>
-        </Swiper>
+          <div className="">
+            <img src={pic2} alt="" className="shadow-md" />
+          </div>
+          <div className="">
+            <img src={pic3} alt="" className="shadow-md" />
+          </div>
+          <div className="">
+            <img src={pic4} alt="" className="shadow-md" />
+          </div>
+        </Slider>
       </div>
     </div>
   );
