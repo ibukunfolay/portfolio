@@ -1,10 +1,6 @@
 import { FaCode, FaMobileAlt, FaServer } from "react-icons/fa";
 import { GoCloudUpload } from "react-icons/go";
 import Typist from "react-typist";
-import javascript from "../Assets/javascript.png";
-import nodejs from "../Assets/nodejs.png";
-import graphql from "../Assets/graphql.png";
-import react from "../Assets/reactlogo.png";
 
 const About = () => {
   return (

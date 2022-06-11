@@ -33,3 +33,16 @@
 body {
   background-color: #25262a;
 }
+
+.hire {
+  font-size: 2rem;
+}
+.hire::before,
+.hire::after {
+  display: inline-block;
+  content: "";
+  border-top: 0.3rem solid black;
+  width: 2rem;
+  margin: 0 1rem;
+  transform: translateY(-1rem);
+}

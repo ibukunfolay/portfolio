@@ -32,21 +32,21 @@ const Testimonials = () => {
               minus cumque aliquid officia, odio nisi impedit praesentium
               dolores? Ea doloribus nihil provident illo!
             </div>
-            <div className="flex py-4 border-b-2 border-solid border-cyan-500">
+            <div className="flex md:w-1/4 py-4 border-b-2 border-solid border-cyan-500">
               <img
                 src={pic}
                 className="h-[50px] w-[50px] rounded-full mr-4"
                 alt="client"
               />
               <div className="">
-                <h2 className="text-white opacity-75 text-md md:text-lg font-sans font-semibold mb-1 tracking-widest">
+                <h2 className="text-white opacity-75 text-sm md:text-sm font-sans font-semibold mb-1 tracking-widest">
                   Nnaemeka Eze
                 </h2>
                 <div className="flex">
-                  <span className="text-white opacity-50 text-xs font-open font-semibold tracking-widest">
+                  <span className="text-white opacity-50 text-xs font-open font-bold md:font-semibold tracking-widest">
                     C.E.O,&nbsp;
                   </span>
-                  <span className="text-cyan-500 opacity-100 text-xs font-open font-semibold tracking-widest">
+                  <span className="text-cyan-500 opacity-100 text-xs font-open font-bold md:font-semibold tracking-widest">
                     360 Stakes.
                   </span>
                 </div>
@@ -59,21 +59,21 @@ const Testimonials = () => {
               minus cumque aliquid officia, odio nisi impedit praesentium
               dolores? Ea doloribus nihil provident illo!
             </div>
-            <div className="flex py-4 border-b-2 border-solid border-cyan-500">
+            <div className="flex md:w-1/4 py-4 border-b-2 border-solid border-cyan-500">
               <img
                 src={pic}
                 className="h-[50px] w-[50px] rounded-full mr-4"
                 alt="client"
               />
               <div className="">
-                <h2 className="text-white opacity-75 text-md md:text-lg font-sans font-semibold mb-1 tracking-widest">
+                <h2 className="text-white opacity-75 text-sm md:text-sm font-sans font-semibold mb-1 tracking-widest">
                   Raheem Sterling
                 </h2>
                 <div className="flex">
-                  <span className="text-white opacity-50 text-xs font-open font-semibold tracking-widest">
+                  <span className="text-white opacity-50 text-xs font-open font-bold md:font-semibold tracking-widest">
                     C.T.O,&nbsp;
                   </span>
-                  <span className="text-cyan-500 opacity-100 text-xs font-open font-semibold tracking-widest">
+                  <span className="text-cyan-500 opacity-100 text-xs font-open font-bold md:font-semibold tracking-widest">
                     360 Stakes.
                   </span>
                 </div>
@@ -85,21 +85,21 @@ const Testimonials = () => {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
               minus cumque aliquid officia, odio nisi impedit
             </div>
-            <div className="flex py-4 border-b-2 border-solid border-cyan-500">
+            <div className="flex md:w-1/4 py-4 border-b-2 border-solid border-cyan-500">
               <img
                 src={pic}
                 className="h-[50px] w-[50px] rounded-full mr-4"
                 alt="client"
               />
               <div className="">
-                <h2 className="text-white opacity-75 text-md md:text-lg font-sans font-semibold mb-1 tracking-widest">
+                <h2 className="text-white opacity-75 text-sm md:text-sm font-sans font-semibold mb-1 tracking-widest">
                   Raheem Sterling
                 </h2>
                 <div className="flex">
-                  <span className="text-white opacity-50 text-xs font-open font-semibold tracking-widest">
+                  <span className="text-white opacity-50 text-xs font-open font-bold md:font-semibold tracking-widest">
                     C.T.O,&nbsp;
                   </span>
-                  <span className="text-cyan-500 opacity-100 text-xs font-open font-semibold tracking-widest">
+                  <span className="text-cyan-500 opacity-100 text-xs font-open font-bold md:font-semibold tracking-widest">
                     360 Stakes.
                   </span>
                 </div>
