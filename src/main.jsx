@@ -4,6 +4,7 @@ import App from "./App";
 import "./tailwind.css";
 import "./index.css";
 import "./new.css";
+import "./marquee.css";
 
 // ReactDOM.createRoot(document.getElementById("root")).render(<App />);
 ReactDOM.render(<App />, document.getElementById("root"));
