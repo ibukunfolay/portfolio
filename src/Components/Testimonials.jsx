@@ -9,7 +9,7 @@ const Testimonials = () => {
     centeredSlides: true,
     loop: true,
     autoplay: {
-      delay: 2500,
+      delay: 5500,
       disableonInteraction: false,
     },
     modules: [Autoplay],
