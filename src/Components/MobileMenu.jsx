@@ -6,7 +6,7 @@ import phone from "../Assets/phone.png";
 
 const MobileMenu = () => {
   return (
-    <div className="md:hidden fixed left-0 right-0 bottom-[1.5em] flex h-10 backdrop-blur-2xl justify-between items-center w-3/5 mx-auto px-8 py-6 rounded-full">
+    <div className="md:hidden fixed left-0 right-0 bottom-[1.5em] flex h-10 backdrop-blur-2xl justify-between items-center w-3/5 mx-auto px-4 py-6 rounded-full">
       <div>
         <img
           src={profile}
@@ -29,7 +29,7 @@ const MobileMenu = () => {
         <img
           src={stacks}
           alt="stacks"
-          className="h-10 "
+          className="h-9 "
           data-tip="my stacks"
           data-type="info"
         />
@@ -38,7 +38,7 @@ const MobileMenu = () => {
         <img
           src={phone}
           alt="stacks"
-          className="h-10 "
+          className="h-9 "
           data-tip="my stacks"
           data-type="info"
         />
