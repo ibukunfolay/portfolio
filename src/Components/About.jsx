@@ -54,7 +54,10 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col lg:basis-2/4 justify-center w-full items-center bg-nodejs bg-auto lg:bg-left bg-right bg-no-repeat bg-blend-overlay">
+      <div
+        data-aos="fade-up"
+        className="flex flex-col lg:basis-2/4 justify-center w-full items-center bg-nodejs bg-auto lg:bg-left bg-right bg-no-repeat bg-blend-overlay"
+      >
         <div className="backdrop-blur-sm hover:backrop-blur-xl bg-[#2D2E32] p-6 px-10  mb-4 md:w-[30em] w-full rounded-md shadow-xl">
           <div className="flex items-center justify-between">
             <h4 className="text-gray-300 text-md text-xl opacity-75 font-medium font-sans tracking-wide">
@@ -67,10 +70,10 @@ const About = () => {
               Html, CSS, Javascript, React, Next, Tailwind, Sass
             </span>
             <a
-              href="#"
+              href="https://www.github.com/ibukunfolay"
               className="font-open text-slate-50 font-light tracking-widest text-xs hover:underline"
             >
-              projects
+              14 projects
             </a>
           </div>
         </div>
@@ -86,10 +89,10 @@ const About = () => {
               Node, MongoDB, GraphQL, REST
             </span>
             <a
-              href="#"
+              href="https://www.github.com/ibukunfolay"
               className="font-open text-slate-50 font-light tracking-widest text-xs hover:underline"
             >
-              projects
+              8 projects
             </a>
           </div>
         </div>
@@ -105,10 +108,10 @@ const About = () => {
               React-Native (Hybrid), Teta.io (Flutter)
             </span>
             <a
-              href="#"
+              href="https://www.github.com/ibukunfolay"
               className="font-open text-slate-50 font-light tracking-widest text-xs hover:underline"
             >
-              projects
+              2 projects
             </a>
           </div>
         </div>
@@ -124,10 +127,10 @@ const About = () => {
               AWS, Docker, Netlify, Heroku
             </span>
             <a
-              href="#"
+              href="https://www.github.com/ibukunfolay"
               className="font-open text-slate-50 font-light tracking-widest text-xs hover:underline"
             >
-              projects
+              3 projects
             </a>
           </div>
         </div>

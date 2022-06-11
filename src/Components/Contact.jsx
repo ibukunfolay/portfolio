@@ -23,16 +23,25 @@ const Contact = () => {
       id="contact"
       className="flex flex-col min-h-[40vh] p-[2em] md:px-[3em] bg-footer-pattern bg-contain bg-center bg-no-repeat bg-blend-overlay bg-[#25262A]"
     >
-      <div className="relative text-cyan-600 md:text-3xl text-2xl md:mb-4 mb-2 leading-10 font-sans font-bold">
+      <div
+        data-aos="fade-up"
+        className="relative text-cyan-600 md:text-3xl text-2xl md:mb-4 mb-2 leading-10 font-sans font-bold"
+      >
         <span className="md:w-[45px] w-[20px] h-[2px] inline-block align-top bg-white mt-[20px] mr-2"></span>
         Hire Me
       </div>
-      <p className="mb-2 md:text-3xl text-xl text-white opacity-50 font-sans font-small md:font-medium md:w-4/5 tracking-widest">
+      <p
+        data-aos="fade-up"
+        className="mb-2 md:text-3xl text-xl text-white opacity-50 font-sans font-small md:font-medium md:w-4/5 tracking-widest"
+      >
         I'm actively looking for Remote Positions. I presently use the MERN
         Stack (MongoDB, Express, React, Node) to create web applications, and I
         favor Front-End Roles.
       </p>
-      <div className="md:text-3xl text-xl text-white opacity-50 font-sans font-small md:font-medium md:w-4/5 tracking-widest">
+      <div
+        data-aos="fade-up"
+        className="md:text-3xl text-xl text-white opacity-50 font-sans font-small md:font-medium md:w-4/5 tracking-widest"
+      >
         <a
           className="hover:text-cyan-600 underline  decoration-cyan-600"
           onClick={() => handleOpen()}
@@ -42,7 +51,7 @@ const Contact = () => {
       </div>
       <Modal open={open} onClose={() => handleClose()}>
         <Box sx={style}>
-          <form className="w-full max-w-lg">
+          <form data-aos="fade-up" className="w-full max-w-lg">
             <div className="flex flex-wrap -mx-3 mb-6">
               <div className="w-full px-3">
                 <label
@@ -91,7 +100,7 @@ const Contact = () => {
                 ></textarea>
               </div>
             </div>
-            <div className="md:flex md:justify-between md:items-center">
+            <div className="flex justify-between items-center">
               <div className="">
                 <button
                   className="shadow  bg-teal-400 hover:bg-teal-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"

@@ -27,7 +27,10 @@ const Projects = () => {
       id="projects"
       className="flex flex-wrap w-full bg-[#25262A] p-[2em] min-h-screen "
     >
-      <div className="flex flex-col justify-center  w-full lg:basis-2/5">
+      <div
+        data-aos="fade-up"
+        className="flex flex-col justify-center  w-full lg:basis-2/5"
+      >
         <div className="text-slate-400 text-center font-sans font-bold text-3xl tracking-widest opacity-75">
           Recent Products
         </div>
@@ -78,7 +81,10 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div className="flex lg:w-[400px] w-full lg:basis-3/5 justify-center items-center lg:px-8 ">
+      <div
+        data-aos="zoom-in"
+        className="flex lg:w-[400px] w-full lg:basis-3/5 justify-center items-center lg:px-8 "
+      >
         <Slider
           className=" w-full outline-none items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300"
           {...settings}

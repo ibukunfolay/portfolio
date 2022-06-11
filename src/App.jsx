@@ -15,9 +15,10 @@ import Testimonials from "./Components/Testimonials";
 import Contact from "./Components/Contact";
 
 const App = () => {
-  // useEffect(() => {
-  //   Aos.init({ duration: 2000 });
-  // }, []);
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+    Aos.refresh();
+  }, []);
 
   const [loading, setLoading] = useState(true);
 
